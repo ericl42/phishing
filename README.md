@@ -1,4 +1,4 @@
-# Phishing Inbox Monitor
+Monitor Phishing Inbox
 **Disclaimer:** This is my first real Python program that I've written so I'm sure there are a lot of items that I could/should have handled differently. I'm always open for suggestions on how to make it better.
 
 This script will monitor an inbox and pull out all relevant information for a SecOps team to review.
