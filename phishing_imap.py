@@ -75,7 +75,7 @@ def vt_url_lookup(vt_url):
             vt_url_permalink = (vt_url_json_dict['permalink'])
             return(vt_url_url, vt_url_date, vt_url_positives, vt_url_permalink)
 
-# Function to get a token for internal SN API
+# Function to get a token for internal SN API. This is where you would insert your own ticketing system API call.
 def query_snapi():
     auth_url = "XXXXXX"
     login_data = { 'username': 'XXXXXX', 'password': 'XXXXXX' }
