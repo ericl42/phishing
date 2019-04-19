@@ -1,5 +1,5 @@
 # Monitor Phishing Inbox
-**Disclaimer:** This is my first real Python program that I've written so I'm sure there are a lot of items that I could/should have handled differently. I'm always open for suggestions on how to make it better.
+**Disclaimer:** This is my first real Python program that I've written so I'm sure there are a lot of items that I could/should have handled differently. I'm always open for suggestions on how to make it better. This is also only revision one of this code. There are quite a few scenarios (i.e. how VirusTotal sends back information) that I may have not seen yet in my testing. So there are probably going to be various issues that may come up that I'll have to account for.
 
 This script will monitor an inbox and pull out all relevant information for a SecOps team to review.
 
@@ -26,3 +26,6 @@ This script will monitor an inbox and pull out all relevant information for a Se
 4. Make the SN description field "prettier".
 5. Add other reputation lookups so additional information is in the initial ticket.
 6. If positives is greater than X, automatically block via security tools.
+
+# Comments
+I created this code using Pythong 3.6.3. When I moved it to another server using 3.4, I received various message errors due to a change from 3.4 to 3.6. So to ensure it works correctly, please use 3.6.
